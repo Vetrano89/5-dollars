@@ -1,122 +1,122 @@
-p{
-  line-height: 2.2;
-  margin:-10px 0 -10px 0;
-}
-
-h2{
-  margin-bottom: 0px;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.app-controller {
-  display: flex;
-  flex-wrap: wrap; /* Optional. only if you want the items to wrap */
-  justify-content: center; /* For horizontal alignment */
-  align-items: center; /* For vertical alignment */
-  flex-direction: column;
-}
-
-@keyframes active-mic {
-  0% {
-    background: orange;
-  }
-  50% {
-    background: rgb(255, 190, 129);
-  }
-  100% {
-    background: orange;
-  }
-  0% { transform: scale(1); }
-  10% { transform: scale(1.05);}
-  20% { transform: scale(1.1); }
-  30% { transform: scale(1.15);}
-  40% { transform: scale(1.2); }
-  50% { transform: scale(1.25);}
-  60% { transform: scale(1.2); }
-  70% { transform: scale(1.15);}
-  80% { transform: scale(1.1); }
-  90% { transform: scale(1.05);}
-  100% { transform: scale(1); }
-}
-
-.sentence-container {
-  margin-bottom: 20px;
-}
-
-.confidence-result {
-  margin-top: 20px;
-}
-
-mark.red {
-  color:#ff0000;
-  background: none;
-}
-
-mark.green {
-  color: green;
-  background: none;
-}
-
-mark.orange {
-  color: orange;
-  background: none;
-}
-
-.mic-icon {
-  border: 3px solid black;
-  border-radius: 50%;
-  background-color: orange;
-  transition: all 1s ease;
-
-  @media only screen and (max-width: 450px) {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 20px;
-  }
-
-  @media only screen and (min-width: 450px) {
-    height: 75px;
-    width: 75px;
-    margin-bottom: 45px;
-  }
-  
-  &--listening {
-    animation: active-mic 1s infinite;
-  }
-}
-
-.right-arrow-icon {
-  border: 3px solid black;
-  border-radius: 50%;
-  background-color: rgb(68, 68, 68);
-
-  @media only screen and (max-width: 450px) {
-    height: 50px;
-    width: 50px;
-    margin-top: 50px;
-  }
-
-  @media only screen and (min-width: 450px) {
-    height: 75px;
-    width: 75px;
-    margin-top: 75px;
-  }
-
-  &--success {
-    background-color: green;
-  }
-}
+// p{
+//   line-height: 2.2;
+//   margin:-10px 0 -10px 0;
+// }
+//
+// h2{
+//   margin-bottom: 0px;
+// }
+//
+// .App {
+//   text-align: center;
+// }
+//
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+//
+// .app-controller {
+//   display: flex;
+//   flex-wrap: wrap; /* Optional. only if you want the items to wrap */
+//   justify-content: center; /* For horizontal alignment */
+//   align-items: center; /* For vertical alignment */
+//   flex-direction: column;
+// }
+//
+// @keyframes active-mic {
+//   0% {
+//     background: orange;
+//   }
+//   50% {
+//     background: rgb(255, 190, 129);
+//   }
+//   100% {
+//     background: orange;
+//   }
+//   0% { transform: scale(1); }
+//   10% { transform: scale(1.05);}
+//   20% { transform: scale(1.1); }
+//   30% { transform: scale(1.15);}
+//   40% { transform: scale(1.2); }
+//   50% { transform: scale(1.25);}
+//   60% { transform: scale(1.2); }
+//   70% { transform: scale(1.15);}
+//   80% { transform: scale(1.1); }
+//   90% { transform: scale(1.05);}
+//   100% { transform: scale(1); }
+// }
+//
+// .sentence-container {
+//   margin-bottom: 20px;
+// }
+//
+// .confidence-result {
+//   margin-top: 20px;
+// }
+//
+// mark.red {
+//   color:#ff0000;
+//   background: none;
+// }
+//
+// mark.green {
+//   color: green;
+//   background: none;
+// }
+//
+// mark.orange {
+//   color: orange;
+//   background: none;
+// }
+//
+// .mic-icon {
+//   border: 3px solid black;
+//   border-radius: 50%;
+//   background-color: orange;
+//   transition: all 1s ease;
+//
+//   @media only screen and (max-width: 450px) {
+//     height: 50px;
+//     width: 50px;
+//     margin-bottom: 20px;
+//   }
+//
+//   @media only screen and (min-width: 450px) {
+//     height: 75px;
+//     width: 75px;
+//     margin-bottom: 45px;
+//   }
+//
+//   &--listening {
+//     animation: active-mic 1s infinite;
+//   }
+// }
+//
+// .right-arrow-icon {
+//   border: 3px solid black;
+//   border-radius: 50%;
+//   background-color: rgb(68, 68, 68);
+//
+//   @media only screen and (max-width: 450px) {
+//     height: 50px;
+//     width: 50px;
+//     margin-top: 50px;
+//   }
+//
+//   @media only screen and (min-width: 450px) {
+//     height: 75px;
+//     width: 75px;
+//     margin-top: 75px;
+//   }
+//
+//   &--success {
+//     background-color: green;
+//   }
+// }
