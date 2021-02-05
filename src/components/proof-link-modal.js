@@ -1,15 +1,10 @@
 import React from 'react';
 import DialogWrapper from './dialog-wrapper';
-import DialogContent from '@material-ui/core/DialogContent';
-import IconButton from '@material-ui/core/IconButton';
-import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   body: {
     overflow: 'auto'
   }
@@ -17,7 +12,6 @@ const useStyles = makeStyles((theme) => ({
 
 export const ProofLinkModal = ({ proofLinks, ...rest }) => {
   const classes = useStyles();
-  const theme = useTheme();
 
   const title = (
     <>
@@ -35,7 +29,7 @@ export const ProofLinkModal = ({ proofLinks, ...rest }) => {
       <div>
         <div className={classes.body}>
           {proofLinks.map(proofLink =>
-            <img key={proofLink} src={proofLink} style={{overflow: 'auto'}} />
+            <img alt='Payment proof' key={proofLink} src={proofLink} style={{overflow: 'auto'}} />
           )}
         </div>
       </div>

@@ -19,7 +19,6 @@ import Divider from '@material-ui/core/Divider';
 import Alert from '@material-ui/lab/Alert';
 import Snackbar from '@material-ui/core/Snackbar';
 
-import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import StarIcon from '@material-ui/icons/StarBorder';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import InfoIcon from '@material-ui/icons/Info';
@@ -38,9 +37,9 @@ function Copyright() {
   );
 }
 
-const seeTheme = makeStyles((theme) => {
-  console.log(theme);
-});
+// const seeTheme = makeStyles((theme) => {
+//   console.log(theme);
+// });
 
 const useStyles = makeStyles((theme) => ({
   '@global': {
@@ -276,6 +275,7 @@ export default function Pricing() {
             style={{ display: 'block' }}
             layout="in-article"
             format="auto"
+            data-adtest="on"
           />
           <Copyright />
         </Box>
