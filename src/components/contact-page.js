@@ -14,9 +14,9 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import SendIcon from '@material-ui/icons/Send';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 
-const SERVICE_ID = 'service_gkw980l';
-const TEMPLATE_ID = 'template_uxg8nmb';
-const USER_ID = 'user_bWAnxGw23ktH4U1x6bWTb';
+const SERVICE_ID = process.env.SERVICE_ID;
+const TEMPLATE_ID = process.env.TEMPLATE_ID;
+const USER_ID = process.env.USER_ID;
 
 const useStyles = makeStyles((theme) => ({
   paper: {

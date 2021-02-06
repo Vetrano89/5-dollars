@@ -3,13 +3,10 @@ import './App.scss';
 import AppController from './components/app-controller';
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = "UA-189068888-1"; // Replace with your Google Analytics tracking ID
-
-
 class App extends React.Component {
 
   componentDidMount() {
-    ReactGA.initialize(TRACKING_ID);
+    ReactGA.initialize(process.env.GA_TRACKING_ID);
     ReactGA.pageview(window.location.pathname)
   }
 
