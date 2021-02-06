@@ -6,7 +6,7 @@ import ReactGA from 'react-ga';
 class App extends React.Component {
 
   componentDidMount() {
-    ReactGA.initialize(process.env.GA_TRACKING_ID);
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
     ReactGA.pageview(window.location.pathname)
   }
 
