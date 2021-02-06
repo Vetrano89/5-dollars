@@ -26,7 +26,7 @@ import InfoIcon from '@material-ui/icons/Info';
 import { ProofLinkModal } from './proof-link-modal';
 import { ContactFormModal } from './contact-form-modal';
 
-import {siteData} from '../site-data';
+import { tiers } from '../data/tiers';
 import { Event } from '../analytics/event.js';
 
 function Copyright() {
