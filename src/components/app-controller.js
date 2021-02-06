@@ -135,7 +135,7 @@ export default function Pricing() {
     Event("REFERRAL_LINK", "OPEN", title);
     setShowContactForm(true);
   }
-console.log(tiers);
+
   return (
     <React.Fragment>
       <ProofLinkModal
