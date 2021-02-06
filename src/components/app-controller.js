@@ -109,7 +109,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const tiers = siteData;
 const footers = [
 ];
 

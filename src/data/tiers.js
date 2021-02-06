@@ -1,4 +1,4 @@
-export const siteData = [
+export const tiers = [
   {
     title: 'Swag Bucks',
     link: 'https://www.swagbucks.com/profile/r_97412356',
