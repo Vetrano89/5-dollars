@@ -133,7 +133,6 @@ export default function Pricing() {
 
   const onClickReferralLinkHandler = (title) => {
     Event("REFERRAL_LINK", "OPEN", title);
-    setShowContactForm(true);
   }
 
   return (
@@ -196,7 +195,8 @@ export default function Pricing() {
       {/* End hero unit */}
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
-          {tiers.map((tier) => (<Grid item key={tier.title} xs={12} sm={12} md={12}>
+          {tiers.map((tier) => (
+            <Grid item key={tier.title} xs={12} sm={12} md={12}>
               <Card>
                 <CardHeader
                   title={tier.title}
