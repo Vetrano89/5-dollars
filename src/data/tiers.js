@@ -1,7 +1,7 @@
 export const tiers = [
   {
     title: 'Swag Bucks',
-    link: 'https://www.swagbucks.com/profile/r_97412356',
+    link: 'https://www.swagbucks.com/p/register?rb=97412356',
     subheader: 'One of the oldest, most reliable sites for "Get paid to" style earnings',
     earnings: '3',
     description: [
